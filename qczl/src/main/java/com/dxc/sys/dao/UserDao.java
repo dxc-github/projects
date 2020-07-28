@@ -1,7 +1,9 @@
 package com.dxc.sys.dao;
 
 import com.dxc.sys.entity.User;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserDao {
     int deleteByPrimaryKey(Integer userid);
 

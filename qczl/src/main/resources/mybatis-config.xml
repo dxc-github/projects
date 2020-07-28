@@ -12,6 +12,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</settings>
 	<!-- 别名优化 -->
 	<typeAliases>
-		<package name="com.dxc.dao"/>
+		<package name="com.dxc.sys.dao"/>
 	</typeAliases>
 </configuration>

@@ -13,7 +13,7 @@
 
 
 	<!-- 扫描service -->
-	<context:component-scan base-package="com.dxc.service.impl"></context:component-scan>
+	<context:component-scan base-package="com.dxc.sys.service.impl"></context:component-scan>
 	<!--<context:component-scan base-package="com.sxt.bus.service.impl"></context:component-scan>-->
 
 
@@ -41,7 +41,7 @@
 	<!-- 进行aop的配置 -->
 	<aop:config>
 		<!-- 声明切入点 -->
-		<aop:pointcut expression="execution(* com.dxc.service.impl.*.*(..))" id="pc1" />
+		<aop:pointcut expression="execution(* com.dxc.sys.service.impl.*.*(..))" id="pc1" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="pc1" />
 		<!--如果有多个-->
 		<!--<aop:pointcut expression="execution(* com.bus.service.impl.*.*(..))" id="pc2" />-->
